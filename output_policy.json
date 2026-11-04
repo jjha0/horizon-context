@@ -1,0 +1,10 @@
+{
+  "name": "conditional_repeat_recovery_v1",
+  "trigger_word_ngram": 6,
+  "trigger_repetitions": 3,
+  "retry_repetition_penalty": 1.05,
+  "retry_no_repeat_ngram_size": 12,
+  "retry_count": 1,
+  "retry_token_limit": "unchanged_from_parent",
+  "reference_used_for_trigger_or_generation": false
+}

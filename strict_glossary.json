@@ -1,0 +1,1311 @@
+[
+  {
+    "term": "self-attention",
+    "domain": "machine_learning",
+    "action": "KEEP",
+    "variants": [
+      "self attention"
+    ],
+    "context_sensitive": false,
+    "note": "Attention within a sequence",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "few-shot learning",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Learning or inference from few examples",
+    "translation": "소수 예제 학습",
+    "abbreviation": null,
+    "translation_variants": [
+      "소수 예제 학습"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "zero-shot learning",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Inference without task-specific examples",
+    "translation": "제로샷 학습",
+    "abbreviation": null,
+    "translation_variants": [
+      "제로샷 학습"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "contrastive learning",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Representation learning using contrasting examples",
+    "translation": "대조학습",
+    "abbreviation": null,
+    "translation_variants": [
+      "대조학습"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "knowledge distillation",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Training a model from teacher outputs",
+    "translation": "지식 증류",
+    "abbreviation": null,
+    "translation_variants": [
+      "지식 증류"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "tokenization",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Dividing text into tokens",
+    "translation": "토큰화",
+    "abbreviation": null,
+    "translation_variants": [
+      "토큰화"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "positional encoding",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Encoding sequence positions",
+    "translation": "위치 인코딩",
+    "abbreviation": null,
+    "translation_variants": [
+      "위치 인코딩"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "learning rate",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Optimizer step size",
+    "translation": "학습률",
+    "abbreviation": null,
+    "translation_variants": [
+      "학습률"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "batch normalization",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Normalizing intermediate activations",
+    "translation": "배치 정규화",
+    "abbreviation": null,
+    "translation_variants": [
+      "배치 정규화"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "binary search tree",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Ordered search tree | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "이진 탐색 트리",
+    "abbreviation": "BST",
+    "translation_variants": [
+      "이진 탐색 트리"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "breadth-first search",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Graph traversal",
+    "translation": "너비 우선 탐색",
+    "abbreviation": "BFS",
+    "translation_variants": [
+      "너비 우선 탐색"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "depth-first search",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Graph traversal",
+    "translation": "깊이 우선 탐색",
+    "abbreviation": "DFS",
+    "translation_variants": [
+      "깊이 우선 탐색"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "minimum spanning tree",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Minimum-weight spanning tree",
+    "translation": "최소 신장 트리",
+    "abbreviation": "MST",
+    "translation_variants": [
+      "최소 신장 트리"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "priority queue",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Queue ordered by priority",
+    "translation": "우선순위 큐",
+    "abbreviation": null,
+    "translation_variants": [
+      "우선순위 큐"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "heap sort",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [
+      "heapsort"
+    ],
+    "context_sensitive": false,
+    "note": "Heap-based sorting algorithm",
+    "translation": "힙 정렬",
+    "abbreviation": null,
+    "translation_variants": [
+      "힙 정렬"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "merge sort",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [
+      "mergesort"
+    ],
+    "context_sensitive": false,
+    "note": "Divide-and-conquer sorting algorithm",
+    "translation": "병합 정렬",
+    "abbreviation": null,
+    "translation_variants": [
+      "병합 정렬"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "quick sort",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [
+      "quicksort"
+    ],
+    "context_sensitive": false,
+    "note": "Partition-based sorting algorithm",
+    "translation": "퀵 정렬",
+    "abbreviation": null,
+    "translation_variants": [
+      "퀵 정렬"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "amortized analysis",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Average cost across operation sequences",
+    "translation": "분할 상환 분석",
+    "abbreviation": null,
+    "translation_variants": [
+      "분할 상환 분석"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "time complexity",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Computational time growth",
+    "translation": "시간 복잡도",
+    "abbreviation": null,
+    "translation_variants": [
+      "시간 복잡도"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "topological sorting",
+    "domain": "algorithms",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Linear ordering of a DAG",
+    "translation": "위상 정렬",
+    "abbreviation": null,
+    "translation_variants": [
+      "위상 정렬"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "deadlock",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Mutual waiting preventing progress",
+    "translation": "교착상태",
+    "abbreviation": null,
+    "translation_variants": [
+      "교착상태"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "virtual memory",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Memory abstraction based on address mapping",
+    "translation": "가상 메모리",
+    "abbreviation": null,
+    "translation_variants": [
+      "가상 메모리"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "context switching",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [
+      "context switch"
+    ],
+    "context_sensitive": false,
+    "note": "Switching between execution contexts",
+    "translation": "문맥 교환",
+    "abbreviation": null,
+    "translation_variants": [
+      "문맥 교환"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "process scheduling",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "OS allocation of CPU to processes",
+    "translation": "프로세스 스케줄링",
+    "abbreviation": null,
+    "translation_variants": [
+      "프로세스 스케줄링"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "page fault",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Exception for nonresident memory page",
+    "translation": "페이지 부재",
+    "abbreviation": null,
+    "translation_variants": [
+      "페이지 부재"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "page table",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Virtual-to-physical address mapping structure",
+    "translation": "페이지 테이블",
+    "abbreviation": null,
+    "translation_variants": [
+      "페이지 테이블"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "memory management unit",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Hardware for address translation | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "메모리 관리 장치",
+    "abbreviation": "MMU",
+    "translation_variants": [
+      "메모리 관리 장치"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "system call",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [
+      "syscall"
+    ],
+    "context_sensitive": false,
+    "note": "Request from a program to the kernel",
+    "translation": "시스템 호출",
+    "abbreviation": null,
+    "translation_variants": [
+      "시스템 호출"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "mutual exclusion",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Avoiding simultaneous critical-section access",
+    "translation": "상호 배제",
+    "abbreviation": null,
+    "translation_variants": [
+      "상호 배제"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "mutex",
+    "domain": "operating_systems",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Mutual exclusion lock",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "race condition",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Outcome dependent on event ordering",
+    "translation": "경쟁 상태",
+    "abbreviation": null,
+    "translation_variants": [
+      "경쟁 상태"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "critical section",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Code that accesses shared resources",
+    "translation": "임계 구역",
+    "abbreviation": null,
+    "translation_variants": [
+      "임계 구역"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "kernel space",
+    "domain": "operating_systems",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Privileged memory and execution domain",
+    "translation": "커널 공간",
+    "abbreviation": null,
+    "translation_variants": [
+      "커널 공간"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "TCP congestion control",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "TCP network congestion management | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "TCP 혼잡 제어",
+    "abbreviation": "TCP",
+    "translation_variants": [
+      "TCP 혼잡 제어"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "packet switching",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Forwarding data in packets",
+    "translation": "패킷 교환",
+    "abbreviation": null,
+    "translation_variants": [
+      "패킷 교환"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "routing protocol",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Protocol for route discovery and exchange",
+    "translation": "라우팅 프로토콜",
+    "abbreviation": null,
+    "translation_variants": [
+      "라우팅 프로토콜"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "three-way handshake",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [
+      "3-way handshake"
+    ],
+    "context_sensitive": false,
+    "note": "TCP connection establishment procedure",
+    "translation": "3방향 핸드셰이크",
+    "abbreviation": null,
+    "translation_variants": [
+      "3방향 핸드셰이크"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "round-trip time",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Time for a request and response",
+    "translation": "왕복 시간",
+    "abbreviation": "RTT",
+    "translation_variants": [
+      "왕복 시간"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "packet loss",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Packets lost in transmission",
+    "translation": "패킷 손실",
+    "abbreviation": null,
+    "translation_variants": [
+      "패킷 손실"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "congestion window",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [
+      "cwnd"
+    ],
+    "context_sensitive": false,
+    "note": "TCP congestion control variable | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "혼잡 윈도",
+    "abbreviation": null,
+    "translation_variants": [
+      "혼잡 윈도"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "sliding window protocol",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Window-based reliable transfer",
+    "translation": "슬라이딩 윈도 프로토콜",
+    "abbreviation": null,
+    "translation_variants": [
+      "슬라이딩 윈도 프로토콜"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "domain name system",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Distributed domain name resolution | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "도메인 이름 시스템",
+    "abbreviation": "DNS",
+    "translation_variants": [
+      "도메인 이름 시스템"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "border gateway protocol",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Inter-domain routing protocol | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "경계 게이트웨이 프로토콜",
+    "abbreviation": "BGP",
+    "translation_variants": [
+      "경계 게이트웨이 프로토콜"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "transport layer",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Protocol stack layer for end-to-end transport",
+    "translation": "전송 계층",
+    "abbreviation": null,
+    "translation_variants": [
+      "전송 계층"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "application layer",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Protocol stack layer serving applications",
+    "translation": "응용 계층",
+    "abbreviation": null,
+    "translation_variants": [
+      "응용 계층"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "link-state routing",
+    "domain": "networks",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Routing based on topology state",
+    "translation": "링크 상태 라우팅",
+    "abbreviation": null,
+    "translation_variants": [
+      "링크 상태 라우팅"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "query optimization",
+    "domain": "databases",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Selecting efficient query execution plans",
+    "translation": "쿼리 최적화",
+    "abbreviation": null,
+    "translation_variants": [
+      "쿼리 최적화"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "serializability",
+    "domain": "databases",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Equivalence to serial transaction execution",
+    "translation": "직렬 가능성",
+    "abbreviation": null,
+    "translation_variants": [
+      "직렬 가능성"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "two-phase locking",
+    "domain": "databases",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Concurrency-control locking protocol",
+    "translation": "2단계 잠금",
+    "abbreviation": "2PL",
+    "translation_variants": [
+      "2단계 잠금"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "write-ahead logging",
+    "domain": "databases",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Logging before data-page updates",
+    "translation": "선행 기록 로깅",
+    "abbreviation": "WAL",
+    "translation_variants": [
+      "선행 기록 로깅"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "relational algebra",
+    "domain": "databases",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Formal operations on relations",
+    "translation": "관계 대수",
+    "abbreviation": null,
+    "translation_variants": [
+      "관계 대수"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "materialized view",
+    "domain": "databases",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Stored query result",
+    "translation": "구체화 뷰",
+    "abbreviation": null,
+    "translation_variants": [
+      "구체화 뷰"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "dependency injection",
+    "domain": "software_engineering",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Supplying dependencies from outside a component | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "의존성 주입",
+    "abbreviation": null,
+    "translation_variants": [
+      "의존성 주입"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "unit testing",
+    "domain": "software_engineering",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Testing individual units",
+    "translation": "단위 테스트",
+    "abbreviation": null,
+    "translation_variants": [
+      "단위 테스트"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "continuous integration",
+    "domain": "software_engineering",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Frequent code integration with automated checks",
+    "translation": "지속적 통합",
+    "abbreviation": "CI",
+    "translation_variants": [
+      "지속적 통합"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "continuous deployment",
+    "domain": "software_engineering",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Automated deployment of changes",
+    "translation": "지속적 배포",
+    "abbreviation": "CD",
+    "translation_variants": [
+      "지속적 배포"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "static analysis",
+    "domain": "software_engineering",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Analyzing programs without executing them",
+    "translation": "정적 분석",
+    "abbreviation": null,
+    "translation_variants": [
+      "정적 분석"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "version control",
+    "domain": "software_engineering",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Tracking changes to files over time",
+    "translation": "버전 관리",
+    "abbreviation": null,
+    "translation_variants": [
+      "버전 관리"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "microservices architecture",
+    "domain": "software_engineering",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Application composed of independent services | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "마이크로서비스 아키텍처",
+    "abbreviation": null,
+    "translation_variants": [
+      "마이크로서비스 아키텍처"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "branch prediction",
+    "domain": "computer_architecture",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Prediction of control-flow branch outcomes",
+    "translation": "분기 예측",
+    "abbreviation": null,
+    "translation_variants": [
+      "분기 예측"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "cache coherence",
+    "domain": "computer_architecture",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Consistency of copies across processor caches",
+    "translation": "캐시 일관성",
+    "abbreviation": null,
+    "translation_variants": [
+      "캐시 일관성"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "out-of-order execution",
+    "domain": "computer_architecture",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Executing instructions in a different order than program order",
+    "translation": "비순차 실행",
+    "abbreviation": null,
+    "translation_variants": [
+      "비순차 실행"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "superscalar processor",
+    "domain": "computer_architecture",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Processor issuing multiple instructions per cycle",
+    "translation": "슈퍼스칼라 프로세서",
+    "abbreviation": null,
+    "translation_variants": [
+      "슈퍼스칼라 프로세서"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "memory hierarchy",
+    "domain": "computer_architecture",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Levels of memory with different speed and capacity",
+    "translation": "메모리 계층 구조",
+    "abbreviation": null,
+    "translation_variants": [
+      "메모리 계층 구조"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "translation lookaside buffer",
+    "domain": "computer_architecture",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Cache for virtual address translations | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "변환 색인 버퍼",
+    "abbreviation": "TLB",
+    "translation_variants": [
+      "변환 색인 버퍼"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "instruction set architecture",
+    "domain": "computer_architecture",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Programmer-visible instruction interface",
+    "translation": "명령어 집합 구조",
+    "abbreviation": "ISA",
+    "translation_variants": [
+      "명령어 집합 구조"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "API",
+    "domain": "general_cs",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "weight decay",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule) | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "가중치 감쇠",
+    "abbreviation": null,
+    "translation_variants": [
+      "가중치 감쇠"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "adversarial training",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule) | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "적대적 학습",
+    "abbreviation": null,
+    "translation_variants": [
+      "적대적 학습"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "adversarial examples",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule) | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "적대적 예제",
+    "abbreviation": null,
+    "translation_variants": [
+      "적대적 예제"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "hidden layer",
+    "domain": "machine_learning",
+    "action": "TRANSLATE",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule) | Prefer conventional Korean CS translation; abbreviations/names preserved separately.",
+    "translation": "은닉층",
+    "abbreviation": null,
+    "translation_variants": [
+      "은닉층"
+    ],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "softmax",
+    "domain": "machine_learning",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "maxout",
+    "domain": "machine_learning",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "cross-attention",
+    "domain": "machine_learning",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "classifier-free guidance",
+    "domain": "machine_learning",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "ResNet",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "GoogLeNet",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "AlexNet",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "BERT",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "GPT",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "UNet",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "ImageNet",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "MNIST",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "CIFAR-10",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "COCO",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "DDIM",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "DDPM",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "LDM",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  },
+  {
+    "term": "VQGAN",
+    "domain": "model_or_dataset_name",
+    "action": "KEEP",
+    "variants": [],
+    "context_sensitive": false,
+    "note": "Added from teammate's terminology.md (explicit KEEP rule)",
+    "translation": null,
+    "abbreviation": null,
+    "translation_variants": [],
+    "auto_enforce": true,
+    "merge_policy": "expert_curated_v1"
+  }
+]
