@@ -95,19 +95,6 @@ Replay 학습 예시 4,096개는 **문맥 번역 3,072개와 일반 번역 1,024
 - **전문용어 검증:** BLEU·chrF 상승만으로 전문용어의 의미 보존이 완전히 입증되지는 않는다.
 - **후속 실험:** 문맥 입력 유무만 변경하는 통제 실험, 전문용어 일관성 평가, 평가셋 확대가 필요하다.
 
-## 06. 결과물 및 인계
-
-| 항목 | 역할 |
-|---|---|
-| `context_train.py` | 문맥 기반 학습 로직 |
-| `replay_context.py` | Replay 학습 실험 |
-| `repair_context_output.py` | 조건부 출력 복구 |
-| `continue_replay_recovered.py` | 출력 복구 정책을 유지한 후속 학습 |
-| `evaluate_context_test.py` | 최종 Test 성능 비교 |
-| `runs/replay_continue_01/best_adapter/` | 최종 선택된 LoRA 어댑터 |
-
-> 파일 경로는 기존 작업 환경을 기준으로 작성하였다. GitHub에 게시할 때는 **실제로 공개한 파일·폴더에 맞춰 경로를 점검해야 한다**.
-
 ---
 
 <strong>포스터용 요약 </strong>
